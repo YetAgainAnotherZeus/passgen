@@ -1,0 +1,28 @@
+{
+  "name": "@yetagainanotherzeus/passgen",
+  "version": "1.0.0",
+  "description": "A simple password generator",
+  "main": "dist/index.js",
+  "bin": {
+    "pass": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [
+    "cli",
+    "password",
+    "generator"
+  ],
+  "author": "YetAgainAnotherZeus",
+  "license": "ISC",
+  "repository": "https://github.com/YetAgainAnotherZeus/passgen",
+  "homepage": "https://github.com/YetAgainAnotherZeus/passgen#readme",
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "typescript": "^5.2.2"
+  }
+}
